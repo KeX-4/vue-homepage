@@ -1,0 +1,108 @@
+﻿{
+ "hasHook": true,
+ "appCount": 1,
+ "apps": [
+  {
+   "name": "App",
+   "hasInstance": true
+  }
+ ],
+ "tree": [
+  {
+   "name": "App",
+   "depth": 0,
+   "state": {
+    "navItems": "Array[5]",
+    "user": "Object{avatar,name,sId,majorClass,email,desc}",
+    "skillArr": "Array[7]",
+    "projects": "Array[4]",
+    "isDark": "false"
+   }
+  },
+  {
+   "name": "SiteHeader",
+   "depth": 1,
+   "props": {
+    "navItems": "Array[5]"
+   },
+   "state": {
+    "activeIndex": "0"
+   }
+  },
+  {
+   "name": "ThemeToggle",
+   "depth": 1,
+   "props": {
+    "modelValue": "false",
+    "modelModifiers": "undefined"
+   },
+   "state": {
+    "isDark": "false"
+   }
+  },
+  {
+   "name": "ProfileHeader",
+   "depth": 1,
+   "props": {
+    "user": "Object{avatar,name,sId,majorClass,email,desc}"
+   }
+  },
+  {
+   "name": "IntroSection",
+   "depth": 1,
+   "props": {
+    "user": "Object{avatar,name,sId,majorClass,email,desc}"
+   },
+   "state": {
+    "isOpen": "false"
+   }
+  },
+  {
+   "name": "SectionCard",
+   "depth": 2,
+   "props": {
+    "id": "intro",
+    "title": "个人简介"
+   }
+  },
+  {
+   "name": "SkillSection",
+   "depth": 1,
+   "props": {
+    "skillArr": "Array[7]"
+   },
+   "state": {
+    "props": "Object{skillArr}",
+    "searchWord": "",
+    "filterSkill": "Array[7]"
+   }
+  },
+  {
+   "name": "SectionCard",
+   "depth": 2,
+   "props": {
+    "id": "skills",
+    "title": "专业技能"
+   }
+  },
+  {
+   "name": "ProjectSection",
+   "depth": 1,
+   "props": {
+    "projects": "Array[4]"
+   }
+  },
+  {
+   "name": "SectionCard",
+   "depth": 2,
+   "props": {
+    "id": "projects",
+    "title": "项目展示"
+   }
+  },
+  {
+   "name": "SiteFooter",
+   "depth": 1
+  }
+ ]
+}
